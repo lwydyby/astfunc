@@ -23,6 +23,23 @@ func main() {
 
 结果
 
-```go
+```bash
+方法所在项目module为:github.com/lwydyby/astfunc 
+方法的package为: 1
+需要添加单元测试的方法如下:
+func A(a string) string {
+        return B()
+}
+测试方法的入参结构为:
+
+string
+测试方法的返回结构为:
+
+string
+测试方法内调用的方法入参和返回分别为:
+
+方法名: B
+入参: 
+返回类型: string
 
 ```
